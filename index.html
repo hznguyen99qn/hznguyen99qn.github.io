@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Chat Video WebRTC</title>
+        <script src="jquery.js"></script>
+        <script src="peerjs.min.js"></script>
+        <script src="socket.io.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo">
+            <div class="title">CHATVIDEO102</div>
+        </div>
+        <div class="container">
+            <div id="dang_ky">
+                <input type="text" id="txtUserName" placeholder="Nhập tên người dùng..."><br>
+                <button id="btnSignUp" class="button button1">Đăng Ký</button>
+            </div>
+            <div id="profile">
+                
+            </div>
+            <div id="chat">
+                <div class="user-ol">
+                    <p>Người dùng trực tuyến: </p>
+                    <ul id="userOnline"></ul>
+                    <h3 id="my-peer">Id của bạn: </h3>
+                </div>
+                <hr>
+                
+                <!-- <video id="remoteStream" width="100%" controls></video>
+                <br /><br />
+                <video id="localStream" width="300" controls></video> -->
+                <div class="relative"><video id="remoteStream" width="950px" height="540px" controls></video>
+                    <div class="absolute"><video id="localStream" width="200px" height="150px" controls></video></div>
+                </div>
+                <hr>
+                <div class="call-remote">
+                    <input type="text" id="remoteId" placeholder="Remote ID">
+                    <button id="btnCall" class="button button1 small">Gọi</button>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            &copy; by Ngọc Hiền - Hồng Nhung (17IT2-SICT)
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

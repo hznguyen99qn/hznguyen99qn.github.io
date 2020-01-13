@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color: #4CAF50;
+}
+#dang_ky {
+    margin: auto;
+    width: 50%;
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 960px;
+    border: 3px solid green;
+    padding: 50px 10px 50px 10px;
+}
+#txtUserName {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 30px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-small {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: red; 
+    color: white; 
+    border: 2px solid red;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.logo .title {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.footer {
+    margin-top: 20px;
+    color: #4CAF50;
+    text-align: center;
+    font-size: 15px;
+}
+div.relative {
+    position: relative;
+    width: 950px;
+    height: 540px;
+    border: 3px solid red;
+} 
+  
+div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    width: 200px;
+    height: 150px;
+    border: 3px solid #4CAF50;
+}
+.call-remote {
+    margin-top: 20px;
+}
+#remoteId {
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 10px;
+}
+#btnCall {
+
+}
+hr {
+    border: 1px solid #4CAF50;
+}
+.user_online:hover {
+    color: red;
+}
+li::after {
+    content: url('call.png');
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 0.8em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
